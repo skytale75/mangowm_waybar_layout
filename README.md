@@ -1,11 +1,11 @@
 # mangowm_waybar_layout
 A waybar module to show the current mango layout
-## Step One - Bash script
+## Step One - Bash script: current_layout.sh
 
 You need to add your monitor output name to "monitor" in the
 script below. I call the file current_layout.sh
 
-```current_layout.sh
+```
 #!/usr/bin/env bash
 
 monitor="HDMI-A-1"
@@ -32,7 +32,7 @@ pkill -RTMIN+11 waybar
 
 ```
 
-## Step Two - Add the dropdown menu xml.
+## Step Two - Add the dropdown menu xml: LayoutMenu.xml
 
 I like to keep a waybar directory in my mango config directory, which is where I keep
 my mango config files and anything that goes along with it. I put the LayoutMenu.xml file and the current_layout.sh file to the directory.
