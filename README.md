@@ -106,7 +106,7 @@ my mango config files and anything that goes along with it. I put the LayoutMenu
 
 ```
 
-## Step Three - Add the custom module to the wayland .json file. 
+## Step Three - Add the custom module to the mangowm .json file. 
 
 You need to change the paths to the appropriate path for your system.  
 
