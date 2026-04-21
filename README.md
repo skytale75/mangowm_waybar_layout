@@ -41,7 +41,10 @@ pkill -RTMIN+11 waybar
 ## Step Two - Add the dropdown menu xml: LayoutMenu.xml
 
 I like to keep a waybar directory in my mango config directory, which is where I keep
-my mango config files and anything that goes along with it. I put the LayoutMenu.xml file and the current_layout.sh file to the directory.
+my mango/waybar config files and anything that goes along with it. I do the same thing with hyprland
+and it is good to keep them seperate. 
+
+I put the LayoutMenu.xml file and the current_layout.sh file to the directory.
 
 ```LayoutMenu.xml
 <?xml version="1.0" encoding="UTF-8"?>
