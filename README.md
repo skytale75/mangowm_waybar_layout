@@ -1,6 +1,8 @@
 # mangowm_waybar_layout
 A waybar module to show the current mango layout, and switch
-from the bar if you want to, with a dropdown menu.
+from the bar if you want to, with a dropdown menu. The indicator
+works independent from the dropdown menu, so if you change your
+layout with keybinds it will update the indicator automatically.
 
 <img width="151" height="147" alt="image" src="https://github.com/user-attachments/assets/153f5802-e527-4127-a338-b4025d9786b1" />
 <img width="197" height="153" alt="image" src="https://github.com/user-attachments/assets/f8a5ffa1-b957-4838-a94b-66f68e39c8d1" />
