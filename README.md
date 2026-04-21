@@ -118,7 +118,8 @@ I put the LayoutMenu.xml file and the current_layout.sh file to the directory.
 
 ## Step Three - Add the custom module to the waybar .json file. 
 
-You need to change the paths to the appropriate path for your system.  
+You need to change the paths of the "exec" and "menu-file" to the path where you placed the new files.  
+
 
 ```waybar_config.json
 	"custom/current_layout": {
@@ -149,7 +150,7 @@ You need to change the paths to the appropriate path for your system.
 
 ## Step Four - style.css
 
-Sdd this to your style.css file. Play with the settings and colors as you see fit.
+Add this to your style.css file. Play with the settings and colors as you see fit.
 
 ```style.css
 #custom-current_layout {
