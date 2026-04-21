@@ -1,5 +1,6 @@
 # mangowm_waybar_layout
-A waybar module to show the current mango layout
+A waybar module to show the current mango layout, and switch
+from the bar if you want to, with a dropdown menu.
 
 <img width="151" height="147" alt="image" src="https://github.com/user-attachments/assets/153f5802-e527-4127-a338-b4025d9786b1" />
 <img width="197" height="153" alt="image" src="https://github.com/user-attachments/assets/f8a5ffa1-b957-4838-a94b-66f68e39c8d1" />
