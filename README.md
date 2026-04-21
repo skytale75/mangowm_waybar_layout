@@ -116,7 +116,7 @@ I put the LayoutMenu.xml file and the current_layout.sh file to the directory.
 
 ```
 
-## Step Three - Add the custom module to the mangowm .json file. 
+## Step Three - Add the custom module to the waybar .json file. 
 
 You need to change the paths to the appropriate path for your system.  
 
