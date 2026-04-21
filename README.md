@@ -5,7 +5,7 @@ A waybar module to show the current mango layout
 You need to add your monitor output name to "monitor" in the
 script below. I call the file current_layout.sh
 
-```
+```current_layout.sh
 #!/usr/bin/env bash
 
 monitor="HDMI-A-1"
@@ -110,7 +110,7 @@ my mango config files and anything that goes along with it. I put the LayoutMenu
 
 You need to change the paths to the appropriate path for your system.  
 
-```Add to waybar .json
+```waybar_config.json
 	"custom/current_layout": {
 		"exec": "~/.config/mango/waybar/current_layout.sh",
 		"return-type": "json",
@@ -141,7 +141,7 @@ You need to change the paths to the appropriate path for your system.
 
 Sdd this to your style.css file. Play with the settings and colors as you see fit.
 
-```Add to style.css
+```style.css
 #custom-current_layout {
   min-width: 60px;
   font-weight: bold;
