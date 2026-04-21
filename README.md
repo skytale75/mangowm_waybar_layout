@@ -160,17 +160,17 @@ Sdd this to your style.css file. Play with the settings and colors as you see fi
 }
 
 #custom-current_layout.tile {
-  background-color: #60ff60;
+  background-color: #60c9ff;
   color: black;
 }
 
 #custom-current_layout.scroller {
-  background-color: teal;
+  background-color: #ff60ff;
   color: black;
 }
 
 #custom-current_layout.monocle {
-  background-color: #44df5a;
+  background-color: #4347df;
   color: black;
 }
 
@@ -195,7 +195,7 @@ Sdd this to your style.css file. Play with the settings and colors as you see fi
 }
 
 #custom-current_layout.right_tile {
-  background-color: #ff567f;
+  background-color: #ff8156;
   color: black;
 }
 
@@ -205,7 +205,7 @@ Sdd this to your style.css file. Play with the settings and colors as you see fi
 }
 
 #custom-current_layout.vertical_grid {
-  background-color: #feed4d;
+  background-color: #4dfe94;
   color: black;
 }
 
@@ -215,7 +215,7 @@ Sdd this to your style.css file. Play with the settings and colors as you see fi
 }
 
 #custom-current_layout.tgmix {
-  background-color: #feed4d;
+  background-color: #4dfe59;
   color: black;
 }
 
