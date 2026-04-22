@@ -33,7 +33,7 @@ case "$output" in
     "VG")  class="vertical_grid"     SEND="V Grid"   ;;
     "VK")  class="vertical_deck"     SEND="V Deck"   ;;
     "TG")  class="tgmix"             SEND="TGmix"    ;;
-    *)     class="default"           SEND="default"  ;;
+    *)     class="unknown"           SEND="new?"  ;;
 esac
 
 echo "{\"text\": \"$SEND\", \"class\": \"$class\"}"
@@ -223,6 +223,10 @@ Add this to your style.css file. Play with the settings and colors as you see fi
   color: black;
 }
 
+#custom-current_layout.unknown {
+  background-color: #f10234;
+  color: black;
+}
 
 ```
 
